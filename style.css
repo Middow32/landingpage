@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 24px;
+}

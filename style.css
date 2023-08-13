@@ -49,7 +49,7 @@ button {
     align-items: center;
 }
 
-.maincontainer {
+.heromaincontainer {
     display: flex;
     justify-content: space-between;
     padding-top: 10%;
@@ -82,7 +82,7 @@ button {
     margin-left: -10%;
 }
 
-.main {
+.maincontainer {
     background-color: white;
 }
 
@@ -93,6 +93,30 @@ button {
     padding: 2% 0%;
 }
 
+.infoimg {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    margin: auto;
+    display: block;
+
+}
+
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 10%;   
+}
+
+.info {
+    max-width: 130px;
+}
+
+.text {
+    filter: contrast(50%);
+}
 .footer {
     display: flex;
     justify-content: center;

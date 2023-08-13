@@ -90,7 +90,7 @@ button {
     font-weight: 900;
     font-size: 24px;
     text-align: center;
-    padding: 2% 0%;
+    padding: 3% 0%;
 }
 
 .infoimg {
@@ -104,10 +104,9 @@ button {
 
 .infocontainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 30px;
-    padding-bottom: 10%;   
+    padding: 0% 10% 10% 10%;   
 }
 
 .info {
@@ -116,7 +115,56 @@ button {
 
 .text {
     filter: contrast(50%);
+    padding-top: 10px;
 }
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 0%;
+    background-color: #E5E7EB;    
+}
+
+.quote {
+    max-width: 510px;
+    font-size: 24px;
+    font-style: italic;
+    filter: contrast(80%);
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 30%;
+
+}
+
+.ctacontainer {
+    background-color: white;
+    padding: 7%;  
+}
+
+.ctablue {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.ctaitems {
+    padding: 4%;
+}
+
+.btnsignup {
+    margin-top: 10%;
+}
+
+.ctatitle {
+    font-size: 24px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
